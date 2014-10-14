@@ -1,0 +1,4 @@
+.highlight-effect {
+  background: #FFFBCC !important;
+  @include transition(background-color 1000ms linear);
+}

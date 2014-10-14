@@ -1,0 +1,15 @@
+// include in your own application.css.scss using
+// @import "saaspress";
+// Import variables before to override them
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// SaasPress stuff
+@import "saaspress/vendor/nprogress";
+@import "saaspress/util";
+@import "saaspress/highlight_effect";
+@import "saaspress/modal";
+@import "saaspress/layout";
+@import "saaspress/flags";
+

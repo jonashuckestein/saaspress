@@ -1,0 +1,32 @@
+// http://flag-sprites.com/
+
+.flag {
+	width: 16px;
+	height: 11px;
+    display: inline-block;
+	background:image-url("flags_sprite.png") no-repeat
+}
+.flag.flag-ca {background-position: -16px 0}
+.flag.flag-de {background-position: -32px 0}
+.flag.flag-gb {background-position: 0 -11px}
+.flag.flag-pl {background-position: -16px -11px}
+.flag.flag-us {background-position: -32px -11px}
+
+
+.flag-dropdown {
+  .dropdown-menu {
+    a {
+      .subtext {
+        font-size: 0.8em;
+        color: #777;
+        padding-left: 20px;
+
+      }
+      .flag {
+        margin-right: 4px;
+        /*float: left;*/
+        /*height: 40px;*/
+      }
+    }
+  }
+}

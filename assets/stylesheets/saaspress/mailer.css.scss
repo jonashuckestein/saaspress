@@ -1,0 +1,13 @@
+// all .scss files need to be run in the context of bootstrap
+// to make variables etc accessible
+
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "variables";
+
+body {
+  color: white;
+  background: $brand-primary;
+}
+
+
