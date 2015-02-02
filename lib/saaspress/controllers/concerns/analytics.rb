@@ -210,7 +210,7 @@ module Saaspress
             render_time_in_ms: (response_time*1000).floor,
           }
         }
-        track_event(event_name, props, {providers: %w{keen}}, true)
+        track_event(event_name, props, {providers: %w{mixpanel}}, true)
       end
 
       def is_robot?
