@@ -19,7 +19,7 @@ module Saaspress
         options.symbolize_keys!
 
         options = {
-          providers: %i{keen intercom mixpanel},
+          providers: %i{mixpanel},
           timestamp: Time.now.iso8601
         }.merge(options)
 
