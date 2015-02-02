@@ -5,7 +5,7 @@ module Saaspress
 
     def self.track_event(event_name, props={}, options={})
       options = {
-        providers: %i{keen mixpanel intercom},
+        providers: %i{mixpanel},
         timestamp: Time.now,
       }.merge(options)
 
